@@ -1,0 +1,1 @@
+Search.setIndex({envversion:46,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{content:0,index:0,modul:0,page:0,search:0},titles:["Welcome to EmbassyCloud UserStories&#8217;s documentation!"],titleterms:{document:0,embassycloud:0,indic:0,tabl:0,userstori:0,welcom:0}})
