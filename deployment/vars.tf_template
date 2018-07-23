@@ -1,0 +1,29 @@
+variable "userid" {
+  description = "The will be used as prefix/suffix in naming cloud resources. Example:- 'demo'."
+  default = "CHANGE#ME"
+}
+
+variable "subnet_cidr" {
+  description =  "Private network subnet cidr. Example of 'subnet_cidr' is '10.100.0.0/24'."
+  default = "CHANGE#ME"
+}
+
+variable "routerid" {
+  description = "The 'ID' of a router. Use command 'openstack router list' to check the 'router ID'."
+  default = "CHANGE#ME"
+}
+
+variable "image" {
+  description = "The 'name' of a image source. Use command 'openstack image list' to check available images."
+  default = "CHANGE#ME"
+}
+
+variable "flavor" {
+  description = "The 'name' of a flavor. Use command 'openstack flavor list' to check available flavors."
+  default = "CHANGE#ME"
+}
+
+variable "user_pubkey" {
+  description = "The 'public key' of a SSH keypair."	
+  default = "CHANGE#ME"
+}

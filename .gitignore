@@ -1,0 +1,4 @@
+# ignore terraform local configurations
+var*.tf
+terraform.tfstate*
+.terraform
